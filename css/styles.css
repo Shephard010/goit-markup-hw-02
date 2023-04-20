@@ -2,5 +2,102 @@ body {
   background-color: #e5e5e5;
 }
 
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header {
+}
 
-cmmb
+/* nav section */
+.header-nav {
+}
+.header-nav-logo {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+
+/* contact section */
+.header-contact {
+}
+.header-contact-list {
+}
+.header-contact-item {
+}
+.header-contact-link {
+}
+
+/**
+  |============================
+  | Main styles
+  |============================
+*/
+.main {
+}
+
+/* Hero section */
+.main-hero {
+}
+.main-hero-title {
+}
+.main-hero-btn {
+}
+
+/* Feature section */
+.main-feature {
+}
+.main-feature-title {
+}
+.main-feature-list {
+}
+.main-feature-item {
+}
+.main-feature-subtitle {
+}
+.main-feature-text {
+}
+
+/* Service section */
+.main-service {
+}
+.main-service-title {
+}
+.main-service-list {
+}
+.main-service-item {
+}
+.main-service-img {
+}
+
+/* team section */
+.main-team {
+}
+.main-team-title {
+}
+.main-team-list {
+}
+.main-team-item {
+}
+.main-team-name {
+}
+.main-team-img {
+}
+.main-team-text {
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
