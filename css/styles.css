@@ -1,5 +1,7 @@
 :root {
   /* Fonts */
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* Colors */
   --color-iris: #4d5ae5;
@@ -14,18 +16,22 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
+  --main-txt-cl: #2e2f42;
+  --main-secondary-color: ;
+
   /* Other */
 }
 body {
   background-color: #e5e5e5;
   font-size: 16px;
-  font-family: 'Roboto';
+  font-family: var(--primary-font);
   font-weight: 400;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
+  color: var(--main-txt-cl);
 }
 
 /**
@@ -43,13 +49,15 @@ body {
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .link:hover {
   text-decoration: none;
-  background-color: red;
 }
-
+.btn {
+  font-family: inherit;
+}
 .main-title {
   font-size: 56px;
   font-family: 'Roboto';
@@ -81,7 +89,7 @@ body {
   text-transform: none;
 }
 
-.desc {
+.descr {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 500;
@@ -124,9 +132,11 @@ body {
 
 /**
   |============================
-  | Header styles
+  | Main page styles
   |============================
 */
+
+/* Header styles */
 .header {
 }
 
@@ -152,11 +162,7 @@ body {
 .header-contact-link {
 }
 
-/**
-  |============================
-  | Main styles
-  |============================
-*/
+/* Main styles */
 .main {
 }
 
@@ -214,11 +220,7 @@ body {
 .main-team-text {
 }
 
-/**
-  |============================
-  | Footer styles
-  |============================
-*/
+/* Footer styles */
 .footer {
 }
 .footer-logo {
@@ -232,9 +234,51 @@ body {
   |============================
 */
 
+.pfl-page-content {
+}
+
+/* Portfolio header styles*/
+.pfl-header {
+}
 .pfl-header-nav {
 }
 .pfl-header-link {
 }
 .pfl-header-list {
+}
+.pfl-header-contact {
+}
+.pfl-contact-list {
+}
+.pfl-contact-item {
+}
+.pfl-contact-link {
+}
+
+/* Portfolio main content styles */
+.pfl-main {
+}
+.pfl-filters-list {
+}
+.pfl-filters-item {
+}
+.pfl-filters-btn {
+}
+.pfl-row-list {
+}
+.pfl-row-item {
+}
+.pfl-row-subtitle {
+}
+.pfl-row-img {
+}
+.pfl-row-text {
+}
+
+/* Portfolio footer styles */
+.pfl-footer {
+}
+.pfl-footer-link {
+}
+.pfl-footer-text {
 }
