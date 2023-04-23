@@ -1,5 +1,34 @@
+:root {
+  /* Fonts */
+  --primary-font: red;
+
+  /* Colors */
+
+  /* Other */
+}
 body {
   background-color: #e5e5e5;
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+.section {
+}
+
+.list {
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  background-color: red;
 }
 
 /**
@@ -46,6 +75,10 @@ body {
 .main-hero-title {
 }
 .main-hero-btn {
+}
+.main-hero-btn:hover {
+}
+.order-service {
 }
 
 /* Feature section */
@@ -100,4 +133,17 @@ body {
 .footer-logo {
 }
 .footer-text {
+}
+
+/**
+  |============================
+  | Portfolio styles
+  |============================
+*/
+
+.pfl-header-nav {
+}
+.pfl-header-link {
+}
+.pfl-header-list {
 }
