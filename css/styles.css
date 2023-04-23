@@ -16,13 +16,15 @@
   --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
-  --main-txt-cl: #2e2f42;
-  --main-secondary-color: ;
+  /* Text colors */
+  --main-txt-cl: #434455;
+  --main-title-cl: #2e2f42;
+  --sec-title-cl: #ffffff;
 
   /* Other */
 }
 body {
-  background-color: #e5e5e5;
+  background-color: var(--color-white);
   font-size: 16px;
   font-family: var(--primary-font);
   font-weight: 400;
@@ -39,7 +41,19 @@ body {
   | Base styles
   |============================
 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section {
 }
 
@@ -57,30 +71,27 @@ body {
 }
 .btn {
   font-family: inherit;
+  cursor: pointer;
 }
 .main-title {
   font-size: 56px;
-  font-family: 'Roboto';
   font-weight: 700;
-  font-style: normal;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: none;
 }
 .section-title {
   font-size: 36px;
-  font-family: 'Roboto';
   font-weight: 700;
   font-style: normal;
-  line-height: 40px;
+  line-heigt: 40px;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-transform: capitalize;
 }
 .subtitle {
   font-size: 20px;
-  font-family: 'Roboto';
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
@@ -91,7 +102,6 @@ body {
 
 .descr {
   font-size: 16px;
-  font-family: 'Roboto';
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
@@ -101,7 +111,6 @@ body {
 }
 .button-text {
   font-size: 16px;
-  font-family: 'Roboto';
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
@@ -111,7 +120,6 @@ body {
 }
 .small-text {
   font-size: 12px;
-  font-family: 'Roboto';
   font-weight: 400;
   font-style: normal;
   line-height: 14px;
@@ -121,7 +129,6 @@ body {
 }
 .link-text {
   font-size: 12px;
-  font-family: 'Roboto';
   font-weight: 400;
   font-style: normal;
   line-height: 16px;
@@ -168,8 +175,10 @@ body {
 
 /* Hero section */
 .main-hero {
+  background-color: var(--color-navy-blue);
 }
 .main-hero-title {
+  color: var(--color-white);
 }
 .main-hero-btn {
 }
@@ -206,6 +215,7 @@ body {
 
 /* team section */
 .main-team {
+  background-color: var(--color-cloud);
 }
 .main-team-title {
 }
@@ -222,6 +232,7 @@ body {
 
 /* Footer styles */
 .footer {
+  background-color: var(--color-navy-blue);
 }
 .footer-logo {
 }
