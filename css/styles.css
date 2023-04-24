@@ -226,15 +226,7 @@ body {
   | Portfolio styles
   |============================
 */
-.pfl-page-content {
-}
 /* Portfolio main content styles */
-.pfl-main {
-}
-.pfl-filters-list {
-}
-.pfl-filters-item {
-}
 .filter-btn {
   background-color: var(--color-cloud);
   border: 1px solid var(--color-cornflower);
